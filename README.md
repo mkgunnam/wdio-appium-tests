@@ -6,13 +6,9 @@ This repository contains a comprehensive test automation suite for mobile applic
 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Project Structure](#project-structure)
 - [Running Tests](#running-tests)
 - [Writing Tests](#writing-tests)
 - [Reporting](#reporting)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Prerequisites
 
@@ -63,3 +59,13 @@ Start Appium server:
 Run the tests:
 
   npx wdio
+  
+ 4. **Writing Tests**
+
+ Feature Files: Write your Gherkin scenarios in .feature files located in the features/testCases directory.
+ Step Definitions: Implement the steps in the features/stepDefinitions directory.
+ Locators: Define your element locators in utils/locators.js.
+ User Actions: Implement common user actions in utils/userActions.js.
+
+5. **Reporting**
+The project uses Timeline report for generating test reports. After running the tests, the reports will be available in the reports directory.
