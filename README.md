@@ -46,7 +46,8 @@ Ensure your ANDROID_HOME environment variable is set correctly in your .zshrc or
 Apply the changes:
 
   source ~/.zshrc   # or source ~/.bashrc
-  Verify installations:
+  
+Verify installations:
 
 Run appium-doctor to check if all required dependencies are installed:
 
