@@ -49,7 +49,7 @@ Run appium-doctor to check if all required dependencies are installed:
 
   appium-doctor --android
 
-3. **Running Tests**
+## Running Tests
 To run the tests, ensure that the Appium server is running and your device/emulator is set up correctly.
 
 Start Appium server:
@@ -60,12 +60,12 @@ Run the tests:
 
   npx wdio
   
- 4. **Writing Tests**
+## Writing Tests
 
  Feature Files: Write your Gherkin scenarios in .feature files located in the features/testCases directory.
  Step Definitions: Implement the steps in the features/stepDefinitions directory.
  Locators: Define your element locators in utils/locators.js.
  User Actions: Implement common user actions in utils/userActions.js.
 
-5. **Reporting**
+## Reporting
 The project uses Timeline report for generating test reports. After running the tests, the reports will be available in the reports directory.
