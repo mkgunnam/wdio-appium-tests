@@ -1,0 +1,118 @@
+{
+  "start": "2024-06-03T17:20:04.538Z",
+  "end": "2024-06-03T17:20:09.517Z",
+  "capabilities": {
+    "platformName": "Android",
+    "deviceName": "emulator-5554",
+    "platformVersion": "14",
+    "automationName": "UiAutomator2",
+    "app": "/Users/muraligunnam/wdio-mobile-tests/apps/android/SauceLabs.apk",
+    "appActivity": "com.swaglabsmobileapp.SplashActivity",
+    "appPackage": "com.swaglabsmobileapp",
+    "platform": "LINUX",
+    "webStorageEnabled": false,
+    "takesScreenshot": true,
+    "javascriptEnabled": true,
+    "databaseEnabled": false,
+    "networkConnectionEnabled": true,
+    "locationContextEnabled": false,
+    "warnings": {},
+    "desired": {
+      "platformName": "Android",
+      "deviceName": "emulator-5554",
+      "platformVersion": "14.0",
+      "automationName": "UiAutomator2",
+      "app": "/Users/muraligunnam/wdio-mobile-tests/apps/android/SauceLabs.apk",
+      "appActivity": "com.swaglabsmobileapp.SplashActivity",
+      "appPackage": "com.swaglabsmobileapp"
+    },
+    "deviceUDID": "emulator-5554",
+    "pixelRatio": "2.75",
+    "statBarHeight": 66,
+    "viewportRect": {
+      "left": 0,
+      "top": 66,
+      "width": 1080,
+      "height": 2154
+    },
+    "deviceApiLevel": 34,
+    "deviceManufacturer": "Google",
+    "deviceModel": "sdk_gphone64_arm64",
+    "deviceScreenSize": "1080x2220",
+    "deviceScreenDensity": 440,
+    "sessionId": "e930db7b-6d8a-486b-b471-5a44d12857a3"
+  },
+  "host": "127.0.0.1",
+  "port": 4723,
+  "framework": "cucumber",
+  "mochaOpts": {
+    "timeout": 10000
+  },
+  "duration": 4979,
+  "suites": [
+    {
+      "title": "As a user, I can log into the app",
+      "duration": 4595,
+      "start": "2024-06-03T17:20:04.593Z",
+      "end": "2024-06-03T17:20:09.188Z",
+      "tests": [
+        {
+          "title": "Given I enter standard_user and secret_sauce",
+          "start": "2024-06-03T17:20:04.593Z",
+          "end": "2024-06-03T17:20:06.883Z",
+          "duration": 2290,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "When I click on login button",
+          "start": "2024-06-03T17:20:06.883Z",
+          "end": "2024-06-03T17:20:07.883Z",
+          "duration": 1000,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Then I should see the PRODUCTS label",
+          "start": "2024-06-03T17:20:07.883Z",
+          "end": "2024-06-03T17:20:09.186Z",
+          "duration": 1303,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": [
+        {
+          "start": "2024-06-03T17:20:04.593Z",
+          "end": "2024-06-03T17:20:04.593Z",
+          "duration": 0,
+          "title": "",
+          "associatedSuite": "0"
+        },
+        {
+          "start": "2024-06-03T17:20:09.186Z",
+          "end": "2024-06-03T17:20:09.188Z",
+          "duration": 2,
+          "title": "",
+          "associatedSuite": "0"
+        }
+      ]
+    },
+    {
+      "title": "Validate swaglab app login",
+      "duration": 4602,
+      "start": "2024-06-03T17:20:04.587Z",
+      "end": "2024-06-03T17:20:09.189Z",
+      "tests": [],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "file:///Users/muraligunnam/wdio-mobile-tests/features/login.feature"
+  ],
+  "state": {
+    "passed": 3,
+    "failed": 0,
+    "skipped": 0
+  }
+}
